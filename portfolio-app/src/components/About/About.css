@@ -1,0 +1,66 @@
+.about-container {
+  padding: 40px 20px;
+  background-color: #181818; /* Slightly different dark shade for sections */
+  border-radius: 8px;
+  margin-top: 20px; /* Space from header if content is short */
+}
+
+.about-container h2 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  color: #BB86FC;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column; /* Stack items vertically on small screens */
+  gap: 30px;
+  align-items: center; /* Center content */
+}
+
+.about-text {
+  flex: 1;
+  max-width: 700px; /* Limit text width for readability */
+  text-align: left; /* Or 'justify' if preferred */
+}
+
+.about-text h3 {
+  font-size: 1.8em;
+  color: #FFFFFF;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #BB86FC;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+.about-text p {
+  font-size: 1.1em;
+  line-height: 1.7;
+  margin-bottom: 15px;
+  color: #D0D0D0;
+}
+
+.about-text strong {
+  color: #FFFFFF;
+  font-weight: 500;
+}
+
+/* Optional: Add styling for skills section if you add one */
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills-list li {
+  background-color: #BB86FC;
+  color: #121212;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 0.95em;
+  font-weight: 500;
+}

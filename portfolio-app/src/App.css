@@ -1,0 +1,36 @@
+.app-main-content {
+  padding-top: 70px; /* Height of the header */
+  padding-bottom: 60px; /* Height of the footer */
+  min-height: calc(100vh - 130px); /* Adjust based on header/footer */
+  overflow-x: hidden; /* Prevent horizontal scroll from animations */
+}
+
+.page-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  animation: fadeIn 0.5s ease-in-out; /* Simple fade-in for page content */
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Basic scrollbar styling for a more modern look (optional) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #BB86FC;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3700B3;
+}

@@ -1,0 +1,49 @@
+.contact-container {
+  padding: 60px 20px; /* Increased padding */
+  text-align: center;
+  min-height: calc(70vh - 130px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #181818;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.contact-container h2 {
+  margin-bottom: 25px;
+  font-size: 2.8em; /* Slightly larger */
+  color: #BB86FC;
+}
+
+.contact-container p {
+  margin-bottom: 35px; /* More space */
+  font-size: 1.25em; /* Slightly larger */
+  color: #D0D0D0;
+  max-width: 650px;
+  line-height: 1.7;
+}
+
+.whatsapp-button {
+  background-color: #BB86FC; /* Main accent color */
+  color: #121212; /* Dark text on light button */
+  padding: 18px 35px; /* Larger button */
+  border: none;
+  border-radius: 30px; /* More rounded */
+  cursor: pointer;
+  font-size: 1.15em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px; /* More spacing */
+  box-shadow: 0 5px 15px rgba(187, 134, 252, 0.3);
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+/* Hover/tap managed by Framer Motion, but this is a fallback if JS disabled */
+.whatsapp-button:hover {
+  background-color: #3700B3; /* Darker accent */
+  color: #FFFFFF;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(187, 134, 252, 0.5);
+}

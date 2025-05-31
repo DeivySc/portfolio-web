@@ -1,0 +1,25 @@
+.app-footer {
+  background-color: #1F1F1F; /* Consistent with header */
+  color: #A0A0A0; /* Softer text color */
+  text-align: center;
+  padding: 20px 0;
+  /* position: relative; remove if causing issues, main content padding handles space */
+  bottom: 0;
+  width: 100%;
+  font-size: 0.9em;
+}
+
+.app-footer p {
+  margin-bottom: 8px;
+}
+
+.app-footer div a {
+  color: #BB86FC; /* Accent color */
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.app-footer div a:hover {
+  color: #FFFFFF; /* Brighter on hover */
+}

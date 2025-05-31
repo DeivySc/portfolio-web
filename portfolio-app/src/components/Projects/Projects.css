@@ -1,0 +1,60 @@
+.projects-container {
+  padding-top: 20px;
+}
+
+.projects-container h2 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  color: #BB86FC;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 25px;
+}
+
+.project-card {
+  background-color: #1E1E1E;
+  border: 1px solid #282828;
+  border-radius: 8px;
+  padding: 25px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Pushes links to bottom */
+}
+
+/* framer-motion whileHover will handle scale and shadow, but keep base transition */
+.project-card:hover {
+   transform: translateY(-5px);
+   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.project-card h3 {
+  font-size: 1.6em;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 1em;
+  color: #B0B0B0;
+  line-height: 1.6;
+  flex-grow: 1; /* Allows description to take available space */
+  margin-bottom: 20px;
+}
+
+.project-links a {
+  color: #BB86FC;
+  text-decoration: none;
+  font-weight: 500;
+  margin-right: 15px;
+  transition: color 0.2s ease;
+}
+
+.project-links a:hover {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
