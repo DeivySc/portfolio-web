@@ -1,0 +1,5 @@
+{
+  "name": "worker-name",
+  "compatibility_date": "2025-05-31",
+  "main": "build/index.html"
+}
